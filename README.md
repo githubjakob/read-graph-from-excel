@@ -12,6 +12,8 @@ Nodes with no ingoing edges represent the "input parameters" of the excel spread
 
 ## Example
 
+The selected cell has the formula "=A1+1". The node on the very left is representing that cell - note the outgoing edge to the node "A1". You can also see that the cell "C1" is referencing the cell "B1" since the two nodes are connected.
+
 ![Example Excel](https://github.com/githubjakob/read-graph-from-excel/raw/main/example/excel.png "Example Excel")
 
 ![Output Graph](https://github.com/githubjakob/read-graph-from-excel/raw/main/example/graph.png "Output Graph")
