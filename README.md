@@ -10,6 +10,12 @@ The nodes represent the cells with the formulas, e.g. node B1 has formula "B1=A1
 
 Nodes with no ingoing edges represent the "input parameters" of the excel spreadsheet while nodes with on outgoing edges represent the "output parameters".
 
+## Example
+
+![Example Excel](https://github.com/githubjakob/read-graph-from-excel/raw/main/example/excel.png "Example Excel")
+
+![Output Graph](https://github.com/githubjakob/read-graph-from-excel/raw/main/example/graph.png "Output Graph")
+
 ## Curent state of the script
 
 - Can read an excel spreadsheet
